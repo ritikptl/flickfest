@@ -47,7 +47,6 @@ const MovieDetails = ({ route }) => {
           <Text>Genre: {movieDetails.Genre}</Text>
           <Text>Director: {movieDetails.Director}</Text>
           <Text>Plot: {movieDetails.Plot}</Text>
-          {/* Add more details as needed */}
         </View>
       ) : (
         <Text>No movie details found.</Text>
